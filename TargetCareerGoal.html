@@ -38,8 +38,8 @@
 
     <main class="max-w-7xl mx-auto">
 
-        <section class="bg-gradient-to-r from-[#1E1D3A] to-[#1A2438] px-3 sm:px-5 lg:px-8 py-5" dir="rtl">
-            <div class="flex items-center justify-between gap-2 mb-4">
+        <section class="bg-gradient-to-r from-[#1E1D3A] to-[#1A2438] px-3 sm:px-5 lg:px-8 py-4 sm:py-5" dir="rtl">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3 sm:mb-4">
                 <div class="flex items-center gap-2">
                     <span class="px-3 py-1 rounded-full bg-[#2A2A45] text-purple-300 text-xs sm:text-sm">
                         الخطوة 02 / 04
@@ -51,36 +51,35 @@
                 </span>
             </div>
 
-            <h2 class="text-2xl sm:text-3xl font-bold mb-3">
+            <h2 class="text-xl sm:text-3xl font-bold leading-snug mb-2 sm:mb-3">
                 حدد مسارك وهدفك المهني المستهدف
             </h2>
-            <p class="text-sm sm:text-lg text-gray-300 leading-relaxed">
+            <p class="text-xs sm:text-lg text-gray-300 leading-relaxed">
                 يساعدك تحديد دورك المستهدف على قياس فجوة مهاراتك وبناء خريطة تدريب مخصصة ومطابقة لاحتياجات سوق العمل التقني في المملكة.
             </p>
 
-            <div class="h-2 bg-gray-700 rounded-full mt-5">
-                <div class="w-1/2 h-2 bg-purple-300 rounded-full"></div>
+            <div class="h-1.5 sm:h-2 bg-gray-700 rounded-full mt-4 sm:mt-5">
+                <div class="w-1/2 h-full bg-purple-300 rounded-full"></div>
             </div>
         </section>
 
-        <section class="px-3 sm:px-5 lg:px-8 mt-4" dir="rtl">
-            <div class="flex items-center gap-3 bg-[#1A1A34] rounded-xl p-3">
+        <section class="px-3 sm:px-5 lg:px-8 mt-3 sm:mt-4" dir="rtl">
+            <div class="flex items-center gap-2 sm:gap-3 bg-[#1A1A34] rounded-xl p-2.5 sm:p-3">
                 <span class="material-symbols-outlined text-gray-400">search</span>
-                <input type="text" placeholder="ابحث عن مسمى وظيفي، مهارة، أو تخصص..." class="flex-1 min-w-0 bg-transparent text-sm outline-none">
+                <input type="text" placeholder="ابحث عن وظيفة أو مهارة..." class="flex-1 min-w-0 bg-transparent text-sm outline-none">
                 <button class="flex text-gray-400">
                     <span class="material-symbols-outlined">tune</span>
                 </button>
             </div>
 
-            <div class="flex gap-2 overflow-x-auto mt-3 pb-1">
-                <button class="shrink-0 text-xs sm:text-sm font-bold bg-purple-300 text-purple-900 px-4 py-2 rounded-xl">الكل</button>
-                <button class="shrink-0 text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-4 py-2 rounded-xl">تطوير الويب</button>
-                <button class="shrink-0 text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-4 py-2 rounded-xl">الأمن السيبراني</button>
-                <button class="shrink-0 text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-4 py-2 rounded-xl">علم البيانات</button>
-                <button class="shrink-0 text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-4 py-2 rounded-xl">هندسة النظم</button>
+            <div class="flex flex-wrap gap-2 mt-3">
+                <button class="text-xs sm:text-sm font-bold bg-purple-300 text-purple-900 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl">الكل</button>
+                <button class="text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl">تطوير الويب</button>
+                <button class="text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl">الأمن السيبراني</button>
+                <button class="text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl">علم البيانات</button>
+                <button class="text-xs sm:text-sm bg-[#1A1A34] text-gray-300 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl">هندسة النظم</button>
             </div>
         </section>
-
         <section class="px-3 sm:px-5 lg:px-8 mt-6 pb-8" dir="rtl">
             <div class="flex justify-between items-center gap-2 mb-4">
                 <h3 class="text-base sm:text-lg font-bold">
@@ -250,7 +249,102 @@
                     </button>
                 </div>
             </article>
-        </section>    
+
+            <article class="bg-[#1A1A34] rounded-xl p-4 mt-4">
+                <h4 class="text-sm sm:text-base">نوع الفرصة المستهدفة</h4>
+
+                <label class="flex items-center gap-3 bg-[#13172D] rounded-lg p-3 mt-3">
+                    <span class="material-symbols-outlined p-2 rounded-lg bg-[#2A2A45] text-purple-300">school</span>
+                    <div class="flex-1">
+                        <p class="text-sm font-bold">تدريب تعاوني جامعي (Co-op)</p>
+                        <p class="text-xs text-gray-400 mt-1">متوافق مع خطط الجامعات السعودية</p>
+                    </div>
+                    <input type="radio" name="opportunity" class="w-4 h-4 accent-purple-300" checked>
+                </label>
+                <label class="flex items-center gap-3 bg-[#13172D] rounded-lg p-3 mt-3">
+                    <span class="material-symbols-outlined p-2 rounded-lg bg-[#2A2A45] text-cyan-300">work</span>
+                    <div class="flex-1">
+                        <p class="text-sm font-bold">وظيفة بدوام كامل للخريجين</p>
+                        <p class="text-xs text-gray-400 mt-1">عقود رسمية ودخول مباشر للسوق</p>
+                    </div>
+                    <input type="radio" name="opportunity" class="w-4 h-4 accent-purple-300">
+                </label>
+                <label class="flex items-center gap-3 bg-[#13172D] rounded-lg p-3 mt-3">
+                    <span class="material-symbols-outlined p-2 rounded-lg bg-[#2A2A45] text-pink-300">hub</span>
+                    <div class="flex-1">
+                        <p class="text-sm font-bold">عمل حر ومشاريع تعاقدية</p>
+                        <p class="text-xs text-gray-400 mt-1">مشاريع تقنية مستقلة ومرنة</p>
+                    </div>
+                    <input type="radio" name="opportunity" class="w-4 h-4 accent-purple-300">
+                </label>
+            </article>
+
+            <article class="bg-[#1A1A34] rounded-xl p-4 mt-4">
+                <h4 class="flex items-center gap-2 text-sm sm:text-base mb-3">
+                    <span class="material-symbols-outlined text-pink-300">location_on</span>
+                    المدينة أو المنطقة المفضلة
+                </h4>
+                <div class="grid grid-cols-2 gap-3">
+                    <button class="flex justify-between items-center bg-[#13172D] rounded-lg p-3 text-sm border border-purple-300/40 shadow-lg shadow-purple-500/20">
+                        الرياض
+                        <span class="material-symbols-outlined text-lg text-purple-300">check_circle</span>
+                    </button>
+                    <button class="bg-[#13172D] rounded-lg p-3 text-sm text-right">جدة</button>
+                    <button class="bg-[#13172D] rounded-lg p-3 text-sm text-right">المنطقة الشرقية</button>
+                    <button class="bg-[#13172D] rounded-lg p-3 text-sm text-right">جميع مناطق المملكة</button>
+                </div>
+            </article>
+
+            <article class="bg-[#1A1A34] rounded-xl p-4 mt-8">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="material-symbols-outlined p-2 rounded-lg bg-[#2A2A45] text-cyan-300">event_available</span>
+                    <div>
+                        <h4 class="font-bold text-sm sm:text-base">أفق التخرج والجاهزية الزمنية</h4>
+                        <p class="text-xs text-gray-400 mt-1">متى تود بدء التدريب أو الالتحاق بالعمل الفعلي؟</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-2">
+                    <button class="flex-1 flex flex-col items-center gap-1 rounded-lg px-1 py-3 bg-[#2A2A45] border border-purple-300/40 shadow-lg shadow-purple-500/20">
+                        <span class="material-symbols-outlined text-purple-300">bolt</span>
+                        <span class="text-sm font-bold">مباشرة</span>
+                        <span class="text-xs text-gray-400">خلال هذا الشهر</span>
+                    </button>
+                    <button class="flex-1 flex flex-col items-center gap-1 rounded-lg px-1 py-3 bg-[#13172D]">
+                        <span class="material-symbols-outlined text-gray-300">schedule</span>
+                        <span class="text-sm font-bold">خلال 3 أشهر</span>
+                        <span class="text-xs text-gray-400">الفصل القادم</span>
+                    </button>
+                    <button class="flex-1 flex flex-col items-center gap-1 rounded-lg px-1 py-3 bg-[#13172D]">
+                        <span class="material-symbols-outlined text-gray-300">school</span>
+                        <span class="text-sm font-bold">بعد التخرج</span>
+                        <span class="text-xs text-gray-400">صيف 2025</span>
+                    </button>
+                </div>
+
+                <div class="flex items-center gap-2 bg-[#070717] rounded-lg p-3 mt-3">
+                    <span class="material-symbols-outlined text-purple-300">insights</span>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        سيتم جدولة اختبار قياس فجوة المهارات وتحديات الكود وفق توقيت أفقك الزمني المختار.
+                    </p>
+                </div>
+            </article>
+        </section>
+        
+        
+        <section class="bg-[#13131F] px-3 sm:px-5 lg:px-8 py-5 mb-5" dir="rtl">
+            <div class="flex justify-between items-center gap-2 mb-3 text-xs">
+                <span class="text-gray-400">المسار المحدد:</span>
+                <span class="text-purple-300">مطور واجهات أمامية مبتدئ</span>
+            </div>
+            <button class="w-full flex items-center justify-center gap-2 bg-purple-300 text-purple-900 font-bold py-3 sm:py-4 rounded-xl text-sm sm:text-base shadow-lg shadow-purple-500/30">
+                تأكيد الهدف وتحليل فجوة المهارات
+                <span class="material-symbols-outlined">arrow_back</span>
+            </button>
+            <button class="block mx-auto text-xs text-gray-400 mt-4">
+                تخطي واختيار لاحقاً
+            </button>
+        </section>
     </main>
 </body>
 </html>
